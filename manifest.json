@@ -1,0 +1,17 @@
+{
+  "name": "Audit Scan Summary",
+  "id": "1577039055129474009",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "index.html",
+  "editorType": [
+    "figma"
+  ],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": [
+      "*"
+    ],
+    "reasoning": "This plugin requires access to external CDNs for Tailwind CSS, React, and Lucide icons."
+  }
+}
